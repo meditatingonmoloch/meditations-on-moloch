@@ -31,6 +31,7 @@ def extract_section(markdown: str, heading: str) -> str:
 
 def main() -> None:
     print(extract_section(README.read_text(encoding="utf-8"), SECTION))
+    print("\n test")
 
 
 if __name__ == "__main__":
